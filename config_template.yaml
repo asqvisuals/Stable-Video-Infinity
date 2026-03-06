@@ -1,0 +1,29 @@
+# Stable-Video-Infinity Configuration Template
+
+# This template provides configuration options for different SVI models.
+
+# General settings
+model_name: "<MODEL_NAME>"  # Name of the model to be used
+version: "<VERSION>"          # Version of the model
+
+# Input settings
+input:
+  video_path: "<VIDEO_PATH>"  # Path to the input video
+  resolution: "<RESOLUTION>"    # Resolution of the input video (e.g., '1920x1080')
+  frame_rate: <FRAME_RATE>       # Frame rate of the input video (e.g., 30)
+
+# Output settings
+output:
+  output_path: "<OUTPUT_PATH>"   # Path where the output will be saved
+  format: "<OUTPUT_FORMAT>"       # Output format (e.g., 'mp4', 'avi')
+
+# Model specific parameters
+parameters:
+  learning_rate: <LEARNING_RATE>   # Learning rate for the model
+  num_epochs: <NUM_EPOCHS>         # Number of training epochs
+  batch_size: <BATCH_SIZE>         # Batch size for training
+
+# Additional settings
+logging:
+  level: "<LOGGING_LEVEL>"         # Logging level (e.g., 'INFO', 'DEBUG')
+  log_file: "<LOG_FILE_PATH>"      # Path to the log file
